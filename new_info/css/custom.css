@@ -1,0 +1,182 @@
+.header_info_address .col .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.header_info_address .col .nav-link:hover {
+    color: rgb(212, 211, 211);
+}
+
+.header_info_lang .col .nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.header_info_lang .col .nav-link:hover {
+    color: rgb(212, 211, 211);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5F83BE;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    padding-right: 15px;
+}
+
+.container .row .room {
+    color: #5F83BE;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+
+.container .row .room:hover {
+    color: rgb(0, 3, 209);
+    ;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(0, 3, 209);
+}
+
+
+/*  поиск по каталогу */
+
+.form-inline .form-control {
+    font-size: 12px;
+}
+
+.navbar {
+    padding-right: 0;
+}
+
+.col mr-0 pr-0 {
+    padding-right: 0;
+}
+
+.col .nav-link {
+    color: white;
+}
+
+.col .nav-link:hover {
+    height: 110;
+}
+
+.col-sm-auto .nav-link {
+    color: white;
+    font-size: 15px;
+    padding-left: 0;
+}
+
+.col-sm-auto .btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.col-sm-auto .nav-link:hover {
+    color: rgb(216, 216, 216);
+}
+
+.btn-link {
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+}
+
+.btn-link:hover {
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+}
+
+.phone a.nav-link {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.col-sm-auto align-self-center left {
+    padding-left: 0;
+}
+
+.col .menu_catalog .btn:hover {
+    color: rgb(155, 54, 54);
+}
+
+
+/* Footer*/
+
+.contact_info .col .nav-link {
+    font-family: Raleway, sans-serif;
+    color: #A5B4CB;
+    font-size: 16px;
+}
+
+.contact_info .col .nav-link:hover {
+    color: white;
+}
+
+.contact_info_adress .col .nav-link {
+    font-family: Prompt, sans-serif;
+    font-size: 14px;
+    color: #A5B4CB;
+}
+
+.contact_info_adress .col .nav-link:hover {
+    color: white;
+}
+
+.footer_medallgroup {
+    font-size: 14px;
+}
+
+
+/* Мобильный шрифт*/
+
+
+/*
+@media (width: 480px) {
+    .col-sm-auto .nav-link {
+        font-size: 8px;
+    }
+    .col-sm-auto .btn {
+        font-family: 'Raleway', sans-serif;
+        font-size: 11px;
+    }
+    .col-sm-auto .btn {
+        font-size: 10px;
+    }
+}
+*/
+
+@media (max-width: 480px) {
+    .header_info_address .col .nav-link {
+        font-size: 10px
+    }
+    .col-sm-auto .nav-link {
+        font-size: 8px;
+    }
+    .col-sm-auto .btn {
+        font-size: 11px;
+    }
+    .col-sm-auto .btn {
+        font-size: 13px;
+    }
+    .contact_info .col .nav-link {
+        font-size: 12px;
+        padding-left: 0;
+    }
+    .contact_info_adress .col .nav-link {
+        font-size: 9px;
+    }
+    .contact_info_adress .col .phone {
+        font-size: 12px;
+    }
+    .col-6 .footer_medallgroup {
+        font-size: 10px;
+    }
+    .header_info_lang .col .nav-link {
+        font-size: 11px;
+    }
+    .footer_medallgroup {
+        font-size: 11px;
+    }
+}
